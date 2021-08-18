@@ -1,0 +1,22 @@
+imagem nada mais é do que uma representação IMUTÁVEL de como será efetiva-
+mente um container.
+
+quer entender imagem ?
+
+vejamos, para se criar uma imagem sua, voce precisa criar um dockerfile.
+veja as etapas:
+
+dockerfile -> "docker build" -> imagem criada -> "docker run" CONTAINER CRIADO
+ou seja uma imagem é uma representaçaão de como SERÁ o CONTÂINER. 
+Com um arquivo Dockerfile podemos compilá-lo com o comando docker build. 
+Ao compilar um arquivo Dockerfile temos uma imagem.
+
+
+
+lembrando que a partir de 1 imagem podemos ter diversos containers,ou seja, para 
+o docker administrar imagens ele tem que ter a imagem no host, ou baixada do seu 
+repositorio ou criada.
+
+-> docker run + imagem
+
+
