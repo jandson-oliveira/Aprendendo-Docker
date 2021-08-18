@@ -1,0 +1,36 @@
+********************    Docker    ************************
+
+
+o que é docker?
+
+
+
+Uma imagem é um pacote leve e executável que engloba tudo que é preciso para executar um pedaço da aplicação, incluindo código, bibliotecas, variáveis de ambiente, arquivos de configuração e um ambiente de execução.
+
+Um container é uma instancia desta imagem, isto é, dada a configuração da imagem, é o que todo o conjunto anterior se torna em memória quando é de fato executado. Um container roda de modo isolado do host por padrão, apenas acessando arquivos do host caso haja configuração para tal.
+
+
+
+
+
+o que é container ?
+é um tipo de isolamento, base de uma imagem
+
+isolamento logico: redes,usuarios
+isolamento fisico: memoria,discos
+
+o que é imagem ?
+varias camadas,ultima camada voce escreve.
+readonly
+
+o que é entrepoint ?
+principal processo de um container.
+
+o que é modo daemon ?
+
+É não rodar em 1 plano, sendo assim, o processo fica em 2 plano e voce nao 
+mata o entrepoint.
+
+
+
+ 
