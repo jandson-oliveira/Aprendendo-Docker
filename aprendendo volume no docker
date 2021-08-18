@@ -1,0 +1,23 @@
+Entendendo Volumes no Docker:
+
+volume nada mais é que você especificar um DIRETÓRIO para persistência dos dados.
+isso as vezes você faz quando sua distribuição GNU/LINUX não MONTA seu DRIVE 
+automaticamente.
+recordar é viver, vejamos:
+mount /dev/sdc1 /media/pendrive
+
+Segundo o site https://badtuxx.github.io/DescomplicandoDocker/chapters/chapter_07.html
+volume tem a PRINCIPAL função de:
+
+persistir os dados. Diferentemente do filesystem do container, que é volátil 
+e toda informação escrita nele é perdida quando o container morre, quando você 
+escreve em um volume aquele dado continua lá, independentemente do estado do
+container.
+
+quais as diferenças entre bind e volume.
+
+volumes os diretorios e suas estruturas, são gerenciadas pelo docker, diferente
+do bind onde quem gerencia as estruturas dos diretorios é o sistema operacional 
+do host, além de o conteudo existir fora do ciclo de vida do container, um 
+volume não aumenta o tamanho dos containers que o utilizam
+
